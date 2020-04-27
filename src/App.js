@@ -12,17 +12,19 @@ import Footer from "./components/Common/Footer/Footer";
 
 function App() {
   return (
-    <BrowserRouter>
-      {/* <Header /> */}
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route exact path="/category" component={CategoryPage} />
-        <Route exact path="/contact" component={ContactsPage} />
-        <Route exact path="/single" component={SinglePage} />
-      </Switch>
-      {/* <Benefit />
-      <Footer /> */}
-    </BrowserRouter>
+    <div className="super_container">
+      <BrowserRouter>
+        <Header />
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/category" component={CategoryPage} />
+          <Route exact path="/contact" component={ContactsPage} />
+          <Route exact path="/single" component={SinglePage} />
+        </Switch>
+        <Benefit />
+      <Footer />
+      </BrowserRouter>
+    </div>
   );
 }
 

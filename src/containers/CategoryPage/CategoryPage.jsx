@@ -10,8 +10,7 @@ import Footer from "../../components/Common/Footer/Footer";
 export default class CategoryPage extends Component {
   render() {
     return (
-      <div className="super_container">
-        <Header />
+      <>
         <div class="container product_section_container">
           <div class="row">
             <div class="col product_section clearfix">
@@ -21,9 +20,7 @@ export default class CategoryPage extends Component {
             </div>
           </div>
         </div>
-           <Benefit />
-      <Footer />
-      </div>
+      </>
     );
   }
 }

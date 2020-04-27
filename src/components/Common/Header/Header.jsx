@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react'
 import './Header.scss';
+import { NavLink } from 'react-router-dom';
 
 export default class Header extends PureComponent {
     render() {
@@ -56,12 +57,12 @@ export default class Header extends PureComponent {
 				<div class="row">
 					<div class="col-lg-12 text-right">
 						<div class="logo_container">
-							<a href="#">Nordic<span>Shop</span></a>
+							<NavLink to="/">Nordic<span>Shop</span></NavLink>
 						</div>
 						<nav class="navbar">
 							<ul class="navbar_menu">
-								<li><a href="index.html">home</a></li>
-								<li><a href="categories.html">shop</a></li>
+								<li><NavLink to="/">home</NavLink></li>
+								<li><NavLink to="/category">shop</NavLink></li>
 								<li><a href="#">promotion</a></li>
 								<li><a href="https://nordiccoder.com/blog" target="blank">blog</a></li>
 								<li><a href="contact.html">contact</a></li>
