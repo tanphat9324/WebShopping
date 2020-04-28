@@ -7,7 +7,7 @@ export default class ProductGrid extends PureComponent {
             <div className="product-grid">
 
             {/* <!-- Product 1 --> */}
-            <div class="product-item women">
+            <div class="productItem women">
 										<div class="product product_filter">
 											<div class="product_image">
 												<img src="images/product_2.png" alt=""/>
@@ -23,7 +23,7 @@ export default class ProductGrid extends PureComponent {
 									</div>
 
 
-                                    <div class="product-item women">
+                                    <div class="productItem women">
 										<div class="product product_filter">
 											<div class="product_image">
 												<img src="images/product_2.png" alt=""/>
@@ -38,7 +38,7 @@ export default class ProductGrid extends PureComponent {
 										<div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
 									</div>
 
-                                    <div class="product-item women">
+                                    <div class="productItem women">
 										<div class="product product_filter">
 											<div class="product_image">
 												<img src="images/product_2.png" alt=""/>
@@ -54,7 +54,7 @@ export default class ProductGrid extends PureComponent {
 									</div>
 
 
-                                    <div class="product-item women">
+                                    <div class="productItem women">
 										<div class="product product_filter">
 											<div class="product_image">
 												<img src="images/product_2.png" alt=""/>

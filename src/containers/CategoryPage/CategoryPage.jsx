@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Header from "../../components/Common/Header/Header";
 import Breadcrumbs from "../../components/Common/Breadcrumbs/Breadcrumbs";
-import "./CategoryPage.scss";
 import Sidebar from "../../components/Category/Sidebar/Sidebar";
 import Products from "../../components/Category/Products/Products";
 import Benefit from "../../components/Common/Benefit/Benefit";
 import Footer from "../../components/Common/Footer/Footer";
+import "./CategoryPage.scss";
 
 export default class CategoryPage extends Component {
   render() {
