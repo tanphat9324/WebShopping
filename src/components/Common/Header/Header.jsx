@@ -57,7 +57,7 @@ export default class Header extends PureComponent {
 				<div className="row">
 					<div className="col-lg-12 text-right">
 						<div className="logo_container">
-							<NavLink to="/">Nordic<span>Shop</span></NavLink>
+							<NavLink to="/">Phat<span>Shop</span></NavLink>
 						</div>
 						<nav className="navbar">
 							<ul className="navbar_menu">

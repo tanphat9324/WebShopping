@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import { NavLink } from "react-router-dom";
 import "./Banner.scss";
 
 export default class Banner extends PureComponent {
@@ -13,7 +14,7 @@ export default class Banner extends PureComponent {
                 style={{backgroundImage:"url('images/banner_1.jpg')"}}
               >
                 <div className="banner_category">
-                  <a href="categories.html">women's</a>
+                  <NavLink to="/category">women's</NavLink>
                 </div>
               </div>
             </div>
@@ -23,7 +24,7 @@ export default class Banner extends PureComponent {
                 style={{backgroundImage:"url('images/banner_2.jpg')"}}
               >
                 <div className="banner_category">
-                  <a href="categories.html">accessories's</a>
+                  <NavLink to="/category">accessories's</NavLink>
                 </div>
               </div>
             </div>
@@ -33,7 +34,7 @@ export default class Banner extends PureComponent {
                 style={{backgroundImage:"url('images/banner_3.jpg')"}}
               >
                 <div className="banner_category">
-                  <a href="categories.html">men's</a>
+                  <NavLink to="/category">men's</NavLink>
                 </div>
               </div>
             </div>
